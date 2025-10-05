@@ -1,0 +1,95 @@
+{
+    "PreferredPlugins": {
+        "Manager": [
+            "folke/lazy.nvim"
+        ],
+        "StartScreen": [
+            "nvimdev/dashboard-nvim"
+        ],
+        "UI": [
+            "ishan9299/modus-theme-vim",
+            "lualine.nvim",
+            "bufferline.nvim",
+            "indent-blankline.nvim",
+            "nvim-web-devicons",
+            "mawkler/modicator.nvim",
+            "moll/vim-bbye"
+        ],
+        "Explorer & Symbols": [
+            "neo-tree.nvim",
+            "aerial.nvim"
+        ],
+        "Finder & Projects": [
+            "telescope.nvim",
+            "telescope-fzf-native.nvim",
+            "project.nvim",
+            {
+                "options": [
+                    "persistence.nvim",
+                    "resession.nvim"
+                ]
+            }
+        ],
+        "Navigation": [
+            "chrisgrieser/nvim-spider",
+            "Bekaboo/dropbar.nvim",
+            "SmiteshP/nvim-navbuddy",
+            "rhysd/clever-f.vim",
+            "ggandor/leap.nvim",
+            "karb94/neoscroll.nvim"
+        ],
+        "Editing": [
+            "monaqa/dial.nvim",
+            "hat0uma/csvview.nvim",
+            {
+                "options": [
+                    "numToStr/Comment.nvim",
+                    "tpope/vim-commentary"
+                ]
+            },
+            "AckslD/nvim-neoclip.lua"
+        ],
+        "Treesitter": [
+            "nvim-treesitter",
+            "nvim-treesitter-textobjects"
+        ],
+        "LSP Stack": [
+            "mason.nvim",
+            "mason-lspconfig.nvim",
+            "nvim-lspconfig",
+            "nvim-cmp",
+            "onsails/lspkind.nvim",
+            "cmp-nvim-lsp",
+            "cmp-path",
+            "cmp-buffer",
+            "luasnip",
+            "lukas-reineke/cmp-under-comparator",
+            "windwp/nvim-autopairs",
+            "kylechui.colorful-menu.nvim",
+            "vim-polyglot"
+        ],
+        "Format/Lint": [
+            "stevearc/conform.nvim",
+            "mfussenegger/nvim-lint (Black, isort, Ruff)"
+        ],
+        "Diagnostics": [
+            "trouble.nvim"
+        ]
+
+        "Git": [
+            "gitsigns.nvim",
+            "vim-fugitive"
+        ],
+        "AI": [
+            "olimorris/codecompanion.nvim"
+        ],
+        "Terminal": [
+            "toggleterm.nvim"
+        ],
+        "QoL": [
+            "which-key.nvim",
+            "todo-comments.nvim",
+            "nvim-notify"
+        ]
+    }
+}
