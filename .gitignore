@@ -1,5 +1,5 @@
 *.bak
 *.env
 tags
-*.md
 lazy-lock.json
+*:Zone.Identifier
