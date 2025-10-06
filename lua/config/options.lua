@@ -33,3 +33,5 @@ o.sessionoptions = { "blank", "buffers", "curdir", "help", "tabpages", "winsize"
 
 -- Look & feel
 pcall(vim.cmd, "colorscheme modus-vivendi") -- falls back silently if not installed
+
+-- Custom Options Added
